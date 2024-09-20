@@ -25,7 +25,7 @@ Navigate through the sections using the navigation bar.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://sebastianjast.github.io/Responsive-CV/)
+- Solution URL: [Add solution URL here](https://sebastianjast.github.io/Responsive_CV/)
 
 ## My process
 
