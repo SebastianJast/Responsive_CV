@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Sebastian.J_CV</title>
+</head>
+
+<body">
+    <!-- ===== HEADER ===== -->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">S.Jastrzębski</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home nav__icon'></i>Dane kontaktowe
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>O mnie
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i>Edukacja
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>Umiejętności
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i>Doświadczenie
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!-- ===== HOME ===== -->
+                <section class="home" id="home">
+                    <div class="home__container section bd-flexbox">
+                        <div class="home__data bd-flexbox">
+                            <img src="./img/Sebastian.jpg" alt="" class="home__img">
+
+                            <h1 class="home__title">Jastrzębski <b>Sebastian</b></h1>
+                            <h3 class="home__profession">Junior Developer</h3>
+
+                            <!-- Button to download CV saved in the pdf folder -->
+                            <div class="home__button">
+                                <a download="" href="./pdf/Sebastian_Jastrzebski_CV.pdf" class="home__button-movil">Moje
+                                    CV</a>
+                            </div>
+                        </div>
+                        <div class="home__address bd-flexbox">
+                            <span class="home__information">
+                                <i class="bx bx-map home__icon"></i> Brzeska 14, Siedlce 08-110
+                            </span>
+                            <span class="home__information">
+                                <i class="bx bx-envelope home__icon"></i> sebastian.jastrzebski@poczta.pl
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon'></i> 607-877-965
+                            </span>
+                            <span class="home__information"><a
+                                    href="https://github.com/SebastianJast">GitHub</a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                    <!-- Button to generate and download the pdf. Available for desktop -->
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                </section>
+
+
+                <!-- ===== SOCIAL ===== -->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+                    <div class="social__container bd-flexbox">
+                        <a href="https://www.facebook.com/profile.php?id=100091494713772" target="_blank"
+                            class="social__link">
+                            <i class="bx bxl-facebook social__icon"></i> @jastrzębski
+                        </a>
+                    </div>
+                </section>
+
+                <!-- ===== PROFILE ===== -->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">O mnie</h2>
+                    <p class="profile__description">
+                        Jestem osobą z doświadczeniem jako asystent projektanta konstrukcji, dążącą do zmiany kariery na
+                        frontend development. Moje umiejętności organizacyjne, dokładność i zdolność do współpracy,
+                        zdobyte podczas pracy jako asystent, teraz motywują mnie do nauki i rozwoju w dziedzinie
+                        programowania. Uczę się najnowszych technologii webowych i jestem
+                        gotów wykorzystać moje umiejętności do tworzenia atrakcyjnych i funkcjonalnych projektów jako
+                        junior frontend developer.
+                    </p>
+                </section>
+                <!-- ==== SKILLS ==== -->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Umiejętności</h2>
+
+                    <div class="skills__content bd-flexbox">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Html
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Css
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Javascript
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>C++
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- ===== LANGUAGES ===== -->
+                <section class="languages section">
+                    <h2 class="section-title">Języki</h2>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-flexbox">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Angielski Poziom B1
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <div class="resume__right">
+
+                <!-- ===== EDUCATION ===== -->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Edukacja</h2>
+
+                    <div class="education__conatiner bd-flexbox">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-flexbox">
+                                <h3 class="education-title">MAGISTER</h3>
+                                <span class="education__studies">Politechnika Warszawska</span>
+                                <span class="education__studies">Wydział Inżynierii Lądowej -Budownictwo</span>
+                                <span class="education__studies">spec. Konstrukcje Budowlane i Inżynierskie</span>
+                                <span class="education__year">X.2017-IX.2019</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <!-- <span class="education__line"></span> -->
+                            </div>
+
+                            <div class="education__data bd-flexbox">
+                                <h3 class="education-title">INŻYNIER</h3>
+                                <span class="education__studies">Wyższa Szkoła Ekologii i Zarządzania w Warszawie</span>
+                                <span class="education__studies">spec. Energooszczędne technologie w budownictwie</span>
+                                <span class="education__year">X.2012-IX.2016</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- ===== EXPERIENCE ===== -->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Doświadczenie</h2>
+
+                    <div class="experience__container bd-flexbox">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-flexbox">
+                                <h3 class="experience__title">K1-Projekt Sp. z o. o. - Asystent projektanta / Konstruktor</h3>
+                                <span class="experience__company">III.2020 - obecnie</span>
+                                <p class="experience__description">Zakres obowiązków:
+                                <ul class="experience__list">
+                                    <li class="experience__item">opracowywanie i weryfikacja dokumentacji projektowej
+                                        wykonawczej w zakresie konstrukcji</li>
+                                    <li class="experience__item">modelowanie obiektów budowlanych w technologii BIM z
+                                        wykorzystaniem programów Tekla Structures i Allplan</li>
+                                    <li class="experience__item">opracowywanie rysunków szalunkowych i zbrojeniowych
+                                    </li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+
+                            <div class="experience__data bd-flexbox">
+                                <h3 class="experience__title">MTA-Projekt Sp. z o. o. - Asystent projektanta</h3>
+                                <span class="experience__company">III.2018 - II.2020</span>
+                                <p class="experience__description">Zakres obowiązków:
+                                <ul class="experience__list">
+                                    <li class="experience__item">opracowywanie i weryfikacja dokumentacji projektowej
+                                        wykonawczej w zakresie konstrukcji</li>
+                                    <li class="experience__item">modelowanie obiektów budowlanych w technologii BIM z
+                                        wykorzystaniem programów Revit i Allplan</li>
+                                    <li class="experience__item">opracowywanie rysunków szalunkowych i zbrojeniowych
+                                    </li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- ===== INTERESTS ===== -->
+                <section class="interests section">
+                    <h2 class="section-title">Hobby</h2>
+
+                    <div class="interests__container bd-flexbox">
+                        <div class="interests__content">
+                            <i class='bx bx-cycling interests__icon'></i>
+                            <span class="interests__name">Kolarstwo</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bx-swim interests__icon'></i>
+                            <span class="interests__name">Pływanie</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- ===== FOOTER ===== -->
+            <footer class="footer__button" id="area-cv">
+                <p class="footer__item">Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do
+                    realizacji procesu rekrutacji (zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych osobowych
+                    (Dz. Ustaw z 2018, poz. 1000) oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE)
+                    2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem
+                    danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE
+                    (RODO)).</p>
+            </footer>
+        </div>
+    </main>
+
+    <!-- ===== SCROLLTOP ===== -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <!-- ===== HTML2PDF ===== -->
+    <script src="js/html2pdf.bundle.min.js"></script>
+
+    <!-- ===== MAIN JS ===== -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
