@@ -47,4 +47,4 @@ During this project, I enhanced my skills in:
 
 ## Author
 
-- GitHub - [@yourusername](https://github.com/SebastianJast)
+- GitHub - [@SebastianJast](https://github.com/SebastianJast)
