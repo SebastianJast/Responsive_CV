@@ -274,6 +274,12 @@ img {
   gap: 1.5rem;
 }
 
+.bd-flexbox-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
 .l-header {
   width: 100%;
   position: fixed;
