@@ -527,6 +527,7 @@ img {
   display: flex;
   align-items: center;
   margin-bottom: var(--mb-3);
+  width: 100px;
 }
 
 .skills__circle,
