@@ -87,11 +87,11 @@ let resumeButton = document.getElementById('resume-button');
 const footer = document.querySelector('footer');
 
 let opt = {
-	margin: [2, 0, 1, 2],
+	margin: [0, 0, 0, 0],
 	filename: 'Sebastian_Jastrzebski_CV',
-	image: { type: 'jpeg', quality: 0.98 },
-	html2canvas: { scale: 5 },
-	jsPDF: { unit: 'mm', format: [210, 294], orientation: 'portrait' },
+	image: { type: 'jpeg', quality: 0.90 },
+	html2canvas: { scale: 1 },
+	jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
 };
 
 function generateResume() {
