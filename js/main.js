@@ -90,7 +90,7 @@ let opt = {
 	margin: [2, 0, 1, 2],
 	filename: 'Sebastian_Jastrzebski_CV',
 	image: { type: 'jpeg', quality: 0.90 },
-	html2canvas: { scale: 1 },
+	html2canvas: { scale: 5 },
 	jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
 };
 
