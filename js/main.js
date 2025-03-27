@@ -87,7 +87,7 @@ let resumeButton = document.getElementById('resume-button');
 const footer = document.querySelector('footer');
 
 let opt = {
-	margin: [0, 0, 0, 0],
+	margin: [2, 0, 1, 2],
 	filename: 'Sebastian_Jastrzebski_CV',
 	image: { type: 'jpeg', quality: 0.90 },
 	html2canvas: { scale: 1 },
