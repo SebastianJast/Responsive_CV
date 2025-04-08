@@ -257,7 +257,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.35rem;
   text-align: center;
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-1);
 }
 
 /* ===== LAYOUT ===== */
@@ -271,7 +271,7 @@ img {
 .bd-flexbox {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .bd-flexbox-row {
@@ -483,7 +483,7 @@ img {
 .projects__line {
   display: block;
   width: 2px;
-  height: 110%;
+  height: 100%;
   background-color: var(--text-color-light);
   transform: translate(7px, 0);
 }
