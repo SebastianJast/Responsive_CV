@@ -21,7 +21,7 @@ Navigate through the sections using the navigation bar.
 
 ### Screenshot
 
-![Screenshot solution](./img/screenshot.JPG)
+![Screenshot solution](./img/screenshot.jpg)
 
 ### Links
 
